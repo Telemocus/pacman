@@ -102,3 +102,25 @@
     border-radius: 50%;
     background-color: rgb(243, 233, 147);
 }
+
+.grid{
+    margin: auto;
+    padding-top: 40px;
+    justify-content: center;
+    display: grid;
+    cursor: grab;
+    background-color: black;
+    overflow: hidden;
+}
+.box{
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.scoreBoard{
+    background-color: black;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
