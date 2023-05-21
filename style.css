@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.boxStart{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+/* Styling the Inky & Clyde*/
+.ghost{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    left: 10%;
+    border: 1.5px solid black;
+    border-radius: 2rem;
+    background-color: rgb(120, 61, 97);
+    z-index: 3;
+}
+
+#eyes{
+    position: absolute;/* so I can decide where to place them (the eyes).*/
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+    bottom: 45%;
+    background-color: antiquewhite;
+     
+}
+
+.eyeLeft{
+    left: 10%;
+}
+
+.eyeRight{
+    right: 10%;
+}
+
+#eyes::after{
+    position: absolute;
+    bottom: 45%;
+    content: "";
+    background-color: brown;
+    height: 50%;
+    width: 50%;
+    border-radius: 50% ;
+    left: 10%;
+}
