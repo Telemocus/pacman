@@ -23,7 +23,7 @@
 }
 
 #eyes{
-    position: absolute;/* so I can decide where to place them (the eyes).*/
+    position: absolute;     /* so I can decide where to place them (the eyes).*/
     display: inline-block;
     height: 30%;
     width: 30%;
